@@ -9,11 +9,13 @@ public class Calculator {
         this.b = b;
     }
 
-    public int addAToB () {
-        return a+b;
+    public void addAToB () {
+        System.out.println("Wynik dodawania to "+(a+b));
     }
 
-    public int multiplyAAndB (){
-        return a*b;
+    public void multiplyAAndB (){
+        System.out.println("Wynik mnożenia to "+(a*b));
     }
+
+
 }
